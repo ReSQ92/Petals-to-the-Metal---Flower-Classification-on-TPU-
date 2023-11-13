@@ -8,3 +8,6 @@ Epoch, Batch size.
 The dataset provides data for 4 different image specifications: 192x192, 224x224, 331x331, 512x512.
 If you want to run the code for different files, then you should edit the GCS_PATH to read the correct inout file path and also change the parameter IMAGE_SIZE to have the correct input specification.
 Once these changes are done, then we can run the code to predict the images of the flowers. 
+
+Code structure:
+First, Import packages. Then provide a distribution strategy to the TPU.
